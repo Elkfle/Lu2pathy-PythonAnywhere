@@ -214,6 +214,3 @@ def route_2pgames():
     del cache['connect4']
     del cache['tictactoe']
     return 'SUCCESS'
-
-if __name__ == '__main__':
-    app.run(host="0.0.0.0")
